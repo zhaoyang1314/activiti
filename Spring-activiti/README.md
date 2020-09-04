@@ -12,17 +12,14 @@
 4.使用时，将流程数据和业务数据相分离，使用业务号（businessKey）建立关联流程数据和业务数据的桥梁，使其相互可以访问,业务数据的主键即为业务号；
 
 5.本系统所有表单均使用普通表单，而不是activiti的动态表单和外置表单，这样做是为了分表存放业务数据和流程数据;
-
-6.系统前端采用基于Bootstrap的模板devoops建立。https://github.com/shenzhanwang/devoops
-
-7.起始页面入口：http://localhost:8080/login
+6.起始页面入口：http://localhost:8080/login
 使用前，编译(可直接在myeclipse完成)：
 ```
 mvn clean install
 ```
-8. swagger入口：http://localhost:8080/swagger-ui.html
+7. swagger入口：http://localhost:8080/swagger-ui.html
 
-9.效果图：
+8.效果图：
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/1211/082825_ac69fdda_1110335.gif "SSM.gif")
 ![输入图片说明](https://images.gitee.com/uploads/images/2018/1211/091443_9ebd78b8_1110335.gif "user.gif")
